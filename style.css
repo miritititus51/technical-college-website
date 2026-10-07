@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+    font-family: Arial,sans-serif;
+}
+    .container{
+        background-color:white;
+        width: 80%;
+        padding: 20px;
+        margin: 30px auto;
+
+    }
+
+h1{
+    font-size: 32px;
+    color: darkblue;
+    text-align: center;
+}
+
+.container > p {
+    text-align: center;
+}
+
+.department{
+    display: inline-block;
+    width: 27%;
+    background-color: lightgrey;
+    padding: 15px;
+    margin: 10px;
+    vertical-align: top;
+}
+.department h2{
+    color: darkgreen;
+}
